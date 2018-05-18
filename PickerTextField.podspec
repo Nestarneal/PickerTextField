@@ -17,6 +17,7 @@ Pod::Spec.new do |s|
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   s.author             = { "Nestarneal" => "nestarneal@gmail.com" }
+  s.homepage           = "https://github.com/Nestarneal/PickerTextField"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
@@ -31,5 +32,5 @@ Pod::Spec.new do |s|
   
   s.source_files  = "PickerTextField", "PickerTextField/**/*.{h,m,swift}"
 
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4' }
+  s.swift_version = '4.0'
 end
