@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   
   s.name         = "PickerTextField"
-  s.version      = "1.0.0"
+  s.version      = "1.1.0"
   s.summary      = "A simple wrapper for UITextField that can pick data provided by the data source."
 
   s.description  = "PickerTextField wrap the UITextField by replace its inputView and inputAccessory

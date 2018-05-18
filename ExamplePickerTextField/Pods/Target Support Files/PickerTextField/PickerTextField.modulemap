@@ -1,0 +1,6 @@
+framework module PickerTextField {
+  umbrella header "PickerTextField-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -27,9 +27,16 @@ public class PickerTextField: UITextField {
     // MARK: - Actions
     
     @objc private func doneBarButtonItemPressed(sender: UIBarButtonItem) {
-        previousSelectedRow = pickerView.selectedRow(inComponent: 0)
-        text = dataSource?.pickerTextField(self, titleForRow: previousSelectedRow)
         resignFirstResponder()
+        
+        previousSelectedRow = pickerView.selectedRow(inComponent: 0)
+        
+        guard let dataSource = dataSource else {
+            text = nil
+            return
+        }
+        
+        text = (dataSource.numberOfRows(in: self) > 0) ? dataSource.pickerTextField(self, titleForRow: previousSelectedRow) : nil
     }
     
     @objc private func cancelBarButtonItemPressed(sender: UIBarButtonItem) {
@@ -78,7 +85,7 @@ extension PickerTextField: UIPickerViewDataSource {
     
     public func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
         guard let dataSource = dataSource else { return 0 }
-        return dataSource.numberOfRows(in: self)
+        return max(dataSource.numberOfRows(in: self), 0)
     }
 }
 
@@ -87,7 +94,8 @@ extension PickerTextField: UIPickerViewDataSource {
 extension PickerTextField: UIPickerViewDelegate {
     
     public func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        return dataSource?.pickerTextField(self, titleForRow: row)
+        guard let dataSource = dataSource else { return nil }
+        return (dataSource.numberOfRows(in: self) > 0) ? dataSource.pickerTextField(self, titleForRow: row) : nil
     }
 }
 

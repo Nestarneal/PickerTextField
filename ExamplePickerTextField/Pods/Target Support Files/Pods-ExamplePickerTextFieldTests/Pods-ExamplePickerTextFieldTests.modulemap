@@ -1,0 +1,6 @@
+framework module Pods_ExamplePickerTextFieldTests {
+  umbrella header "Pods-ExamplePickerTextFieldTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
