@@ -1,0 +1,708 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40177DA44F1BA790B40D11E2 /* Pods_ExamplePickerTextFieldUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA0F63FE0EF50599A3D82CFC /* Pods_ExamplePickerTextFieldUITests.framework */; };
+		6CE3888A20AFB5F00036EB08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE3888920AFB5F00036EB08 /* AppDelegate.swift */; };
+		6CE3888C20AFB5F00036EB08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE3888B20AFB5F00036EB08 /* ViewController.swift */; };
+		6CE3888F20AFB5F00036EB08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CE3888D20AFB5F00036EB08 /* Main.storyboard */; };
+		6CE3889120AFB5F10036EB08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CE3889020AFB5F10036EB08 /* Assets.xcassets */; };
+		6CE3889420AFB5F10036EB08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CE3889220AFB5F10036EB08 /* LaunchScreen.storyboard */; };
+		6CE3889F20AFB5F10036EB08 /* PickerTextFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE3889E20AFB5F10036EB08 /* PickerTextFieldTests.swift */; };
+		6CE388AA20AFB5F10036EB08 /* PickerTextFieldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE388A920AFB5F10036EB08 /* PickerTextFieldUITests.swift */; };
+		808E84064AFC4D402EC9439E /* Pods_ExamplePickerTextField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E52FE3A9659F790A291CC707 /* Pods_ExamplePickerTextField.framework */; };
+		F1066F0AD96A57C2286B6F8F /* Pods_ExamplePickerTextFieldTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E663C5B15B44CBB3B051A4E5 /* Pods_ExamplePickerTextFieldTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6CE3889B20AFB5F10036EB08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CE3887E20AFB5F00036EB08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CE3888520AFB5F00036EB08;
+			remoteInfo = PickerTextField;
+		};
+		6CE388A620AFB5F10036EB08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CE3887E20AFB5F00036EB08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CE3888520AFB5F00036EB08;
+			remoteInfo = PickerTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3544608CA1C04DDC6A6C31CB /* Pods-ExamplePickerTextFieldUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExamplePickerTextFieldUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExamplePickerTextFieldUITests/Pods-ExamplePickerTextFieldUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6CE3888620AFB5F00036EB08 /* ExamplePickerTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExamplePickerTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CE3888920AFB5F00036EB08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6CE3888B20AFB5F00036EB08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6CE3888E20AFB5F00036EB08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6CE3889020AFB5F10036EB08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6CE3889320AFB5F10036EB08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6CE3889520AFB5F10036EB08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CE3889A20AFB5F10036EB08 /* ExamplePickerTextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExamplePickerTextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CE3889E20AFB5F10036EB08 /* PickerTextFieldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerTextFieldTests.swift; sourceTree = "<group>"; };
+		6CE388A020AFB5F10036EB08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CE388A520AFB5F10036EB08 /* ExamplePickerTextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExamplePickerTextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CE388A920AFB5F10036EB08 /* PickerTextFieldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerTextFieldUITests.swift; sourceTree = "<group>"; };
+		6CE388AB20AFB5F10036EB08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78FDA98AA276F7E724949DEA /* Pods-ExamplePickerTextFieldTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExamplePickerTextFieldTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExamplePickerTextFieldTests/Pods-ExamplePickerTextFieldTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7C8B365B5A6DEF005253CA34 /* Pods-ExamplePickerTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExamplePickerTextField.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExamplePickerTextField/Pods-ExamplePickerTextField.debug.xcconfig"; sourceTree = "<group>"; };
+		8000B9524A98F36041B58B56 /* Pods-ExamplePickerTextFieldUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExamplePickerTextFieldUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExamplePickerTextFieldUITests/Pods-ExamplePickerTextFieldUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BA0F63FE0EF50599A3D82CFC /* Pods_ExamplePickerTextFieldUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExamplePickerTextFieldUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB528EF5F0A8AB0C1312DA0C /* Pods-ExamplePickerTextFieldTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExamplePickerTextFieldTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExamplePickerTextFieldTests/Pods-ExamplePickerTextFieldTests.release.xcconfig"; sourceTree = "<group>"; };
+		C6D0A4DFEE8EAFC64D994989 /* Pods-ExamplePickerTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExamplePickerTextField.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExamplePickerTextField/Pods-ExamplePickerTextField.release.xcconfig"; sourceTree = "<group>"; };
+		E52FE3A9659F790A291CC707 /* Pods_ExamplePickerTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExamplePickerTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E663C5B15B44CBB3B051A4E5 /* Pods_ExamplePickerTextFieldTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExamplePickerTextFieldTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CE3888320AFB5F00036EB08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				808E84064AFC4D402EC9439E /* Pods_ExamplePickerTextField.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CE3889720AFB5F10036EB08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1066F0AD96A57C2286B6F8F /* Pods_ExamplePickerTextFieldTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CE388A220AFB5F10036EB08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40177DA44F1BA790B40D11E2 /* Pods_ExamplePickerTextFieldUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CE3887D20AFB5F00036EB08 = {
+			isa = PBXGroup;
+			children = (
+				6CE3888820AFB5F00036EB08 /* PickerTextField */,
+				6CE3889D20AFB5F10036EB08 /* PickerTextFieldTests */,
+				6CE388A820AFB5F10036EB08 /* PickerTextFieldUITests */,
+				6CE3888720AFB5F00036EB08 /* Products */,
+				A7EF22C17EE1446B95CDF656 /* Pods */,
+				B4355C36F6340E9D06AA7EAD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6CE3888720AFB5F00036EB08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CE3888620AFB5F00036EB08 /* ExamplePickerTextField.app */,
+				6CE3889A20AFB5F10036EB08 /* ExamplePickerTextFieldTests.xctest */,
+				6CE388A520AFB5F10036EB08 /* ExamplePickerTextFieldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CE3888820AFB5F00036EB08 /* PickerTextField */ = {
+			isa = PBXGroup;
+			children = (
+				6CE3888920AFB5F00036EB08 /* AppDelegate.swift */,
+				6CE3888B20AFB5F00036EB08 /* ViewController.swift */,
+				6CE3888D20AFB5F00036EB08 /* Main.storyboard */,
+				6CE3889020AFB5F10036EB08 /* Assets.xcassets */,
+				6CE3889220AFB5F10036EB08 /* LaunchScreen.storyboard */,
+				6CE3889520AFB5F10036EB08 /* Info.plist */,
+			);
+			path = PickerTextField;
+			sourceTree = "<group>";
+		};
+		6CE3889D20AFB5F10036EB08 /* PickerTextFieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				6CE3889E20AFB5F10036EB08 /* PickerTextFieldTests.swift */,
+				6CE388A020AFB5F10036EB08 /* Info.plist */,
+			);
+			path = PickerTextFieldTests;
+			sourceTree = "<group>";
+		};
+		6CE388A820AFB5F10036EB08 /* PickerTextFieldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6CE388A920AFB5F10036EB08 /* PickerTextFieldUITests.swift */,
+				6CE388AB20AFB5F10036EB08 /* Info.plist */,
+			);
+			path = PickerTextFieldUITests;
+			sourceTree = "<group>";
+		};
+		A7EF22C17EE1446B95CDF656 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C8B365B5A6DEF005253CA34 /* Pods-ExamplePickerTextField.debug.xcconfig */,
+				C6D0A4DFEE8EAFC64D994989 /* Pods-ExamplePickerTextField.release.xcconfig */,
+				78FDA98AA276F7E724949DEA /* Pods-ExamplePickerTextFieldTests.debug.xcconfig */,
+				BB528EF5F0A8AB0C1312DA0C /* Pods-ExamplePickerTextFieldTests.release.xcconfig */,
+				3544608CA1C04DDC6A6C31CB /* Pods-ExamplePickerTextFieldUITests.debug.xcconfig */,
+				8000B9524A98F36041B58B56 /* Pods-ExamplePickerTextFieldUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B4355C36F6340E9D06AA7EAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E52FE3A9659F790A291CC707 /* Pods_ExamplePickerTextField.framework */,
+				E663C5B15B44CBB3B051A4E5 /* Pods_ExamplePickerTextFieldTests.framework */,
+				BA0F63FE0EF50599A3D82CFC /* Pods_ExamplePickerTextFieldUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CE3888520AFB5F00036EB08 /* ExamplePickerTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CE388AE20AFB5F10036EB08 /* Build configuration list for PBXNativeTarget "ExamplePickerTextField" */;
+			buildPhases = (
+				CC25B34E40D2DCF693D57D42 /* [CP] Check Pods Manifest.lock */,
+				6CE3888220AFB5F00036EB08 /* Sources */,
+				6CE3888320AFB5F00036EB08 /* Frameworks */,
+				6CE3888420AFB5F00036EB08 /* Resources */,
+				341B61FEB8E5B27343BA8BDB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExamplePickerTextField;
+			productName = PickerTextField;
+			productReference = 6CE3888620AFB5F00036EB08 /* ExamplePickerTextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6CE3889920AFB5F10036EB08 /* ExamplePickerTextFieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CE388B120AFB5F10036EB08 /* Build configuration list for PBXNativeTarget "ExamplePickerTextFieldTests" */;
+			buildPhases = (
+				109D5B584696B8EB6AEA7498 /* [CP] Check Pods Manifest.lock */,
+				6CE3889620AFB5F10036EB08 /* Sources */,
+				6CE3889720AFB5F10036EB08 /* Frameworks */,
+				6CE3889820AFB5F10036EB08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CE3889C20AFB5F10036EB08 /* PBXTargetDependency */,
+			);
+			name = ExamplePickerTextFieldTests;
+			productName = PickerTextFieldTests;
+			productReference = 6CE3889A20AFB5F10036EB08 /* ExamplePickerTextFieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6CE388A420AFB5F10036EB08 /* ExamplePickerTextFieldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CE388B420AFB5F10036EB08 /* Build configuration list for PBXNativeTarget "ExamplePickerTextFieldUITests" */;
+			buildPhases = (
+				F2FA9DFC464EF25528B85382 /* [CP] Check Pods Manifest.lock */,
+				6CE388A120AFB5F10036EB08 /* Sources */,
+				6CE388A220AFB5F10036EB08 /* Frameworks */,
+				6CE388A320AFB5F10036EB08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CE388A720AFB5F10036EB08 /* PBXTargetDependency */,
+			);
+			name = ExamplePickerTextFieldUITests;
+			productName = PickerTextFieldUITests;
+			productReference = 6CE388A520AFB5F10036EB08 /* ExamplePickerTextFieldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CE3887E20AFB5F00036EB08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Nestarneal;
+				TargetAttributes = {
+					6CE3888520AFB5F00036EB08 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					6CE3889920AFB5F10036EB08 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 6CE3888520AFB5F00036EB08;
+					};
+					6CE388A420AFB5F10036EB08 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 6CE3888520AFB5F00036EB08;
+					};
+				};
+			};
+			buildConfigurationList = 6CE3888120AFB5F00036EB08 /* Build configuration list for PBXProject "ExamplePickerTextField" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CE3887D20AFB5F00036EB08;
+			productRefGroup = 6CE3888720AFB5F00036EB08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CE3888520AFB5F00036EB08 /* ExamplePickerTextField */,
+				6CE3889920AFB5F10036EB08 /* ExamplePickerTextFieldTests */,
+				6CE388A420AFB5F10036EB08 /* ExamplePickerTextFieldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CE3888420AFB5F00036EB08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CE3889420AFB5F10036EB08 /* LaunchScreen.storyboard in Resources */,
+				6CE3889120AFB5F10036EB08 /* Assets.xcassets in Resources */,
+				6CE3888F20AFB5F00036EB08 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CE3889820AFB5F10036EB08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CE388A320AFB5F10036EB08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		109D5B584696B8EB6AEA7498 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExamplePickerTextFieldTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		341B61FEB8E5B27343BA8BDB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ExamplePickerTextField/Pods-ExamplePickerTextField-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PickerTextField/PickerTextField.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PickerTextField.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExamplePickerTextField/Pods-ExamplePickerTextField-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC25B34E40D2DCF693D57D42 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExamplePickerTextField-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2FA9DFC464EF25528B85382 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExamplePickerTextFieldUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CE3888220AFB5F00036EB08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CE3888C20AFB5F00036EB08 /* ViewController.swift in Sources */,
+				6CE3888A20AFB5F00036EB08 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CE3889620AFB5F10036EB08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CE3889F20AFB5F10036EB08 /* PickerTextFieldTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CE388A120AFB5F10036EB08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CE388AA20AFB5F10036EB08 /* PickerTextFieldUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6CE3889C20AFB5F10036EB08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CE3888520AFB5F00036EB08 /* ExamplePickerTextField */;
+			targetProxy = 6CE3889B20AFB5F10036EB08 /* PBXContainerItemProxy */;
+		};
+		6CE388A720AFB5F10036EB08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CE3888520AFB5F00036EB08 /* ExamplePickerTextField */;
+			targetProxy = 6CE388A620AFB5F10036EB08 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6CE3888D20AFB5F00036EB08 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CE3888E20AFB5F00036EB08 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6CE3889220AFB5F10036EB08 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CE3889320AFB5F10036EB08 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CE388AC20AFB5F10036EB08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6CE388AD20AFB5F10036EB08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CE388AF20AFB5F10036EB08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C8B365B5A6DEF005253CA34 /* Pods-ExamplePickerTextField.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PickerTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nestarneal.PickerTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6CE388B020AFB5F10036EB08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6D0A4DFEE8EAFC64D994989 /* Pods-ExamplePickerTextField.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PickerTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nestarneal.PickerTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6CE388B220AFB5F10036EB08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78FDA98AA276F7E724949DEA /* Pods-ExamplePickerTextFieldTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PickerTextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nestarneal.PickerTextFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExamplePickerTextField.app/ExamplePickerTextField";
+			};
+			name = Debug;
+		};
+		6CE388B320AFB5F10036EB08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB528EF5F0A8AB0C1312DA0C /* Pods-ExamplePickerTextFieldTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PickerTextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nestarneal.PickerTextFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExamplePickerTextField.app/ExamplePickerTextField";
+			};
+			name = Release;
+		};
+		6CE388B520AFB5F10036EB08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3544608CA1C04DDC6A6C31CB /* Pods-ExamplePickerTextFieldUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PickerTextFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nestarneal.PickerTextFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PickerTextField;
+			};
+			name = Debug;
+		};
+		6CE388B620AFB5F10036EB08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8000B9524A98F36041B58B56 /* Pods-ExamplePickerTextFieldUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PickerTextFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nestarneal.PickerTextFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PickerTextField;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CE3888120AFB5F00036EB08 /* Build configuration list for PBXProject "ExamplePickerTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CE388AC20AFB5F10036EB08 /* Debug */,
+				6CE388AD20AFB5F10036EB08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CE388AE20AFB5F10036EB08 /* Build configuration list for PBXNativeTarget "ExamplePickerTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CE388AF20AFB5F10036EB08 /* Debug */,
+				6CE388B020AFB5F10036EB08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CE388B120AFB5F10036EB08 /* Build configuration list for PBXNativeTarget "ExamplePickerTextFieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CE388B220AFB5F10036EB08 /* Debug */,
+				6CE388B320AFB5F10036EB08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CE388B420AFB5F10036EB08 /* Build configuration list for PBXNativeTarget "ExamplePickerTextFieldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CE388B520AFB5F10036EB08 /* Debug */,
+				6CE388B620AFB5F10036EB08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CE3887E20AFB5F00036EB08 /* Project object */;
+}

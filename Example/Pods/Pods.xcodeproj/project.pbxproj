@@ -14,12 +14,12 @@
 		4ACB72233B201DCBC3061818782A3990 /* Pods-ExamplePickerTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5616A92072F03CF73A6169BCF9D5D87 /* Pods-ExamplePickerTextField-dummy.m */; };
 		4E8C66DB881CEB20090289C23B124BFF /* Pods-ExamplePickerTextFieldUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4A53FBC8854E1F73F4E7A47F6B3329 /* Pods-ExamplePickerTextFieldUITests-dummy.m */; };
 		6AC698D0B44C5D25FD8B440A408E142E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		6B5DAEBDB5D259A097BB6D04C9115C3C /* PickerTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991BB68A20DD6FCCB67E587B7F1A3FA4 /* PickerTextField.swift */; };
+		6B5DAEBDB5D259A097BB6D04C9115C3C /* PickerTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEDE8710415CDE1D4AA146BC4E932CD /* PickerTextField.swift */; };
 		80107B6EEFF2559F423A6622F7E9EACA /* Pods-ExamplePickerTextFieldTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 956F8BA382A90CA746D21D6F2E5F3AF6 /* Pods-ExamplePickerTextFieldTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ADA40732DD127E6B83662056C550EBD6 /* PickerTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FB115D298B0C122E4AA6BF300921A3D /* PickerTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADA40732DD127E6B83662056C550EBD6 /* PickerTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E6E86CE797A4FF6E57C19063327D8C1 /* PickerTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B872F06EE00239665D629E172BB6D246 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		B9BDA87A9CB01A9D3039AB98A18FD5D6 /* PickerTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 50CD1352D262F07EBBD41B8E52DD9B67 /* PickerTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CA1528D299F3790B9255C81CEC7E2758 /* PickerTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCF8574AECAEECB124E96D0FF451DA3 /* PickerTextField-dummy.m */; };
+		B9BDA87A9CB01A9D3039AB98A18FD5D6 /* PickerTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = BE04A50CC77C8F79619E9A38C241017D /* PickerTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA1528D299F3790B9255C81CEC7E2758 /* PickerTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BDD3AE686CE761053ABE981D09A7EA /* PickerTextField-dummy.m */; };
 		CE41EF23695DBB17372D2B9F3BB1FE24 /* Pods-ExamplePickerTextFieldTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A96E32FE936B42894211CBC25E760B5C /* Pods-ExamplePickerTextFieldTests-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		080C6CDFD149039491F8C26DAA8759AE /* PickerTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PickerTextField.modulemap; sourceTree = "<group>"; };
+		0F80708635E2BDC3C0EEC3DA02C68898 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11C39D61D62D3AECFF1DA51EB1E92B6E /* Pods-ExamplePickerTextFieldTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExamplePickerTextFieldTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		12D463197C00D6FB645407C052688514 /* Pods-ExamplePickerTextField-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExamplePickerTextField-frameworks.sh"; sourceTree = "<group>"; };
 		1865E8C67697B027174583DC3F9F7B34 /* Pods-ExamplePickerTextFieldTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExamplePickerTextFieldTests-frameworks.sh"; sourceTree = "<group>"; };
@@ -57,44 +59,42 @@
 		3875FD2EBDAA43C0DC0BB498B9F12774 /* Pods-ExamplePickerTextFieldUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExamplePickerTextFieldUITests-resources.sh"; sourceTree = "<group>"; };
 		39737B4BD9CE02C8370BA0254B888259 /* Pods-ExamplePickerTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ExamplePickerTextField-umbrella.h"; sourceTree = "<group>"; };
 		3B06C2FC7344D4FF64FF6C0856CCCE34 /* Pods-ExamplePickerTextFieldTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ExamplePickerTextFieldTests.modulemap"; sourceTree = "<group>"; };
-		4432A1B0B4E4B4A6F0BAB1F5FF48673D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		50CD1352D262F07EBBD41B8E52DD9B67 /* PickerTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PickerTextField.h; path = PickerTextField/PickerTextField.h; sourceTree = "<group>"; };
+		41BDD3AE686CE761053ABE981D09A7EA /* PickerTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PickerTextField-dummy.m"; sourceTree = "<group>"; };
 		5651E4D075EBC2AF0F853BF40F896521 /* Pods-ExamplePickerTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ExamplePickerTextField.modulemap"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5AF1B1EC12DEC88B0425CE9A11220787 /* Pods-ExamplePickerTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExamplePickerTextField.release.xcconfig"; sourceTree = "<group>"; };
-		5C2A079E23D9BE2DB2381F9466B5995E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		647E95829C250CB777F73E25D6A369AD /* Pods-ExamplePickerTextFieldUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExamplePickerTextFieldUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		66CA7235BD04578FF698579A41429977 /* Pods_ExamplePickerTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ExamplePickerTextField.framework; path = "Pods-ExamplePickerTextField.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6FB115D298B0C122E4AA6BF300921A3D /* PickerTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PickerTextField-umbrella.h"; sourceTree = "<group>"; };
-		6FEE0BEBBC129D9DF00CEF8457B8B42E /* PickerTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PickerTextField-prefix.pch"; sourceTree = "<group>"; };
-		7351D7A462B6BB7C31FBB4BA6BC8B8DF /* PickerTextField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = PickerTextField.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		763A8E51918958FB3B1053464148C8F4 /* Pods-ExamplePickerTextFieldUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ExamplePickerTextFieldUITests-umbrella.h"; sourceTree = "<group>"; };
 		775888CE780E2247714C8EE3BCC663E5 /* Pods-ExamplePickerTextFieldTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExamplePickerTextFieldTests-resources.sh"; sourceTree = "<group>"; };
 		78555E83BBBD9C44A0E9C20CDAC931EC /* Pods-ExamplePickerTextFieldTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExamplePickerTextFieldTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7A476538F4BA7561842C572F5DF8CC02 /* PickerTextField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = PickerTextField.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7FA1E838E6630C6EC27C4836D91C082A /* Pods-ExamplePickerTextFieldUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExamplePickerTextFieldUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		8AD041AB39494EB084C7A1979FAA444C /* Pods-ExamplePickerTextField-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExamplePickerTextField-resources.sh"; sourceTree = "<group>"; };
 		8B468CFB4C8971095397B8F840417010 /* PickerTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PickerTextField.framework; path = PickerTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DEDE8710415CDE1D4AA146BC4E932CD /* PickerTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PickerTextField.swift; path = PickerTextField/PickerTextField.swift; sourceTree = "<group>"; };
+		8E6E86CE797A4FF6E57C19063327D8C1 /* PickerTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PickerTextField-umbrella.h"; sourceTree = "<group>"; };
+		90185B8FEDC9E381B80411D84BE86186 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		91DF740B238C28C608510AFA8AF491FF /* Pods_ExamplePickerTextFieldUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ExamplePickerTextFieldUITests.framework; path = "Pods-ExamplePickerTextFieldUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		956F8BA382A90CA746D21D6F2E5F3AF6 /* Pods-ExamplePickerTextFieldTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ExamplePickerTextFieldTests-umbrella.h"; sourceTree = "<group>"; };
-		991BB68A20DD6FCCB67E587B7F1A3FA4 /* PickerTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PickerTextField.swift; path = PickerTextField/PickerTextField.swift; sourceTree = "<group>"; };
 		9A5456A13FCF5B9B206D1C2C30013331 /* Pods-ExamplePickerTextFieldUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ExamplePickerTextFieldUITests.modulemap"; sourceTree = "<group>"; };
 		A96E32FE936B42894211CBC25E760B5C /* Pods-ExamplePickerTextFieldTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExamplePickerTextFieldTests-dummy.m"; sourceTree = "<group>"; };
 		AB64142D0318420D07BDCB4D665DD125 /* Pods-ExamplePickerTextFieldUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExamplePickerTextFieldUITests.release.xcconfig"; sourceTree = "<group>"; };
 		ACE75473C8CDE8F521F0A75CD3DABBB7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE176A8E6F66C26894F8A229D3721E44 /* PickerTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PickerTextField.xcconfig; sourceTree = "<group>"; };
+		BE04A50CC77C8F79619E9A38C241017D /* PickerTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PickerTextField.h; path = PickerTextField/PickerTextField.h; sourceTree = "<group>"; };
 		C5616A92072F03CF73A6169BCF9D5D87 /* Pods-ExamplePickerTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExamplePickerTextField-dummy.m"; sourceTree = "<group>"; };
 		C648891F5E97E3E5EBF4A1067E1BD86A /* Pods-ExamplePickerTextFieldUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExamplePickerTextFieldUITests-frameworks.sh"; sourceTree = "<group>"; };
-		CA089FED2F3A8BA96D1C0AE930BC4B92 /* PickerTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PickerTextField.modulemap; sourceTree = "<group>"; };
 		CB4A53FBC8854E1F73F4E7A47F6B3329 /* Pods-ExamplePickerTextFieldUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExamplePickerTextFieldUITests-dummy.m"; sourceTree = "<group>"; };
 		CDB3B1CA9D8F29CC555533C2CF98F4AA /* Pods_ExamplePickerTextFieldTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ExamplePickerTextFieldTests.framework; path = "Pods-ExamplePickerTextFieldTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDBEA72EB749B41000245BC57C1D8F27 /* PickerTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PickerTextField-prefix.pch"; sourceTree = "<group>"; };
 		D1635A2EC361F7A152D15F2BF323A10D /* Pods-ExamplePickerTextField-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExamplePickerTextField-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D1B900F80CBA5ED614B2E14BBB159F05 /* Pods-ExamplePickerTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExamplePickerTextField.debug.xcconfig"; sourceTree = "<group>"; };
 		D65553F434E530144B99590C6A942634 /* Pods-ExamplePickerTextFieldTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExamplePickerTextFieldTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DDE63C7D67F3A35F80A7A9674F001F15 /* Pods-ExamplePickerTextField-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExamplePickerTextField-acknowledgements.plist"; sourceTree = "<group>"; };
-		F9D353649992BFA766B6FDE9A26FB23C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		FD2F315F673102B325B8AD9F97BAF2D7 /* PickerTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PickerTextField.xcconfig; sourceTree = "<group>"; };
+		E1395ED9DA50904F7C552D5662EE0FDE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		FD51F48A396F06367F08A4F42107AC25 /* Pods-ExamplePickerTextFieldUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExamplePickerTextFieldUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FDCF8574AECAEECB124E96D0FF451DA3 /* PickerTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PickerTextField-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,16 +133,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4A908316261D4453D965A1A0218F3EDA /* PickerTextField */ = {
+		2B118C6B8D9875C37037E9F82D882F99 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				50CD1352D262F07EBBD41B8E52DD9B67 /* PickerTextField.h */,
-				991BB68A20DD6FCCB67E587B7F1A3FA4 /* PickerTextField.swift */,
-				A0D17B8C28A1797FF0D1EBDBB1D50B79 /* Pod */,
-				D632C9833512652A6675EBA24EC05660 /* Support Files */,
+				90185B8FEDC9E381B80411D84BE86186 /* LICENSE */,
+				7A476538F4BA7561842C572F5DF8CC02 /* PickerTextField.podspec */,
+				E1395ED9DA50904F7C552D5662EE0FDE /* README.md */,
 			);
-			name = PickerTextField;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
@@ -178,19 +176,9 @@
 		7F6E4AA5E6A1F70C00455BEDECA8015E /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4A908316261D4453D965A1A0218F3EDA /* PickerTextField */,
+				CE52D202E0673336CCBB642C7B2496A9 /* PickerTextField */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		A0D17B8C28A1797FF0D1EBDBB1D50B79 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				F9D353649992BFA766B6FDE9A26FB23C /* LICENSE */,
-				7351D7A462B6BB7C31FBB4BA6BC8B8DF /* PickerTextField.podspec */,
-				4432A1B0B4E4B4A6F0BAB1F5FF48673D /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		A5F2E2BB7170E636F5407E08EC85345F /* Targets Support Files */ = {
@@ -221,6 +209,20 @@
 			path = "Target Support Files/Pods-ExamplePickerTextFieldUITests";
 			sourceTree = "<group>";
 		};
+		B0129FDF8F4F0FA52F5299A84546C2D0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F80708635E2BDC3C0EEC3DA02C68898 /* Info.plist */,
+				080C6CDFD149039491F8C26DAA8759AE /* PickerTextField.modulemap */,
+				AE176A8E6F66C26894F8A229D3721E44 /* PickerTextField.xcconfig */,
+				41BDD3AE686CE761053ABE981D09A7EA /* PickerTextField-dummy.m */,
+				CDBEA72EB749B41000245BC57C1D8F27 /* PickerTextField-prefix.pch */,
+				8E6E86CE797A4FF6E57C19063327D8C1 /* PickerTextField-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PickerTextField";
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -247,18 +249,16 @@
 			path = "Target Support Files/Pods-ExamplePickerTextFieldTests";
 			sourceTree = "<group>";
 		};
-		D632C9833512652A6675EBA24EC05660 /* Support Files */ = {
+		CE52D202E0673336CCBB642C7B2496A9 /* PickerTextField */ = {
 			isa = PBXGroup;
 			children = (
-				5C2A079E23D9BE2DB2381F9466B5995E /* Info.plist */,
-				CA089FED2F3A8BA96D1C0AE930BC4B92 /* PickerTextField.modulemap */,
-				FD2F315F673102B325B8AD9F97BAF2D7 /* PickerTextField.xcconfig */,
-				FDCF8574AECAEECB124E96D0FF451DA3 /* PickerTextField-dummy.m */,
-				6FEE0BEBBC129D9DF00CEF8457B8B42E /* PickerTextField-prefix.pch */,
-				6FB115D298B0C122E4AA6BF300921A3D /* PickerTextField-umbrella.h */,
+				BE04A50CC77C8F79619E9A38C241017D /* PickerTextField.h */,
+				8DEDE8710415CDE1D4AA146BC4E932CD /* PickerTextField.swift */,
+				2B118C6B8D9875C37037E9F82D882F99 /* Pod */,
+				B0129FDF8F4F0FA52F5299A84546C2D0 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "ExamplePickerTextField/Pods/Target Support Files/PickerTextField";
+			name = PickerTextField;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		ECFB37FCAB2DF3B2F64C91CF23BBC6A5 /* Pods-ExamplePickerTextField */ = {
@@ -555,7 +555,7 @@
 		};
 		076A4F0F67C5695677C03E40477820EB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD2F315F673102B325B8AD9F97BAF2D7 /* PickerTextField.xcconfig */;
+			baseConfigurationReference = AE176A8E6F66C26894F8A229D3721E44 /* PickerTextField.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -871,7 +871,7 @@
 		};
 		F26B5A19521276D33FE08419B78CB0FB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD2F315F673102B325B8AD9F97BAF2D7 /* PickerTextField.xcconfig */;
+			baseConfigurationReference = AE176A8E6F66C26894F8A229D3721E44 /* PickerTextField.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";

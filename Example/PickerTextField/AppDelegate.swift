@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  ExamplePickerTextField
+//  PickerTextField
 //
-//  Created by Nestarneal on 2018/05/18.
+//  Created by Nestarneal on 2018/05/19.
 //  Copyright © 2018年 Nestarneal. All rights reserved.
 //
 

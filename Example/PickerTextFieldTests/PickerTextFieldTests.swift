@@ -1,15 +1,15 @@
 //
-//  ExamplePickerTextFieldTests.swift
-//  ExamplePickerTextFieldTests
+//  PickerTextFieldTests.swift
+//  PickerTextFieldTests
 //
-//  Created by Nestarneal on 2018/05/18.
+//  Created by Nestarneal on 2018/05/19.
 //  Copyright © 2018年 Nestarneal. All rights reserved.
 //
 
 import XCTest
-@testable import ExamplePickerTextField
+@testable import PickerTextField
 
-class ExamplePickerTextFieldTests: XCTestCase {
+class PickerTextFieldTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

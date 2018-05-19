@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:ExamplePickerTextField.xcodeproj">
+      location = "self:PickerTextField.xcodeproj">
    </FileRef>
 </Workspace>
