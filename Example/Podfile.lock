@@ -1,5 +1,5 @@
 PODS:
-  - PickerTextField (1.1.2)
+  - PickerTextField (1.2.0)
 
 DEPENDENCIES:
   - PickerTextField (from `../../PickerTextField`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../../PickerTextField"
 
 SPEC CHECKSUMS:
-  PickerTextField: 6ec4321b70e3af0a71544e2c1ca9463abf3b8940
+  PickerTextField: d09695e5b045653f3f27cb9ced52b447cb717bf7
 
 PODFILE CHECKSUM: 3a0ed46b42a18223d004869a4a47c96929ed2638
 

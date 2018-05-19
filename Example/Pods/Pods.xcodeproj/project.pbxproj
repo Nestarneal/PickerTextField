@@ -553,11 +553,10 @@
 			};
 			name = Release;
 		};
-		076A4F0F67C5695677C03E40477820EB /* Release */ = {
+		161109853E8C772B4E7C0E705F6F883A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AE176A8E6F66C26894F8A229D3721E44 /* PickerTextField.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -570,7 +569,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/PickerTextField/PickerTextField-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/PickerTextField/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -582,14 +581,13 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		172F47AEAB4F54CF7D93D323D9D4D8FE /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -829,6 +827,43 @@
 			};
 			name = Release;
 		};
+		CCD31B3FF8787911A22A4409538384F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE176A8E6F66C26894F8A229D3721E44 /* PickerTextField.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PickerTextField/PickerTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PickerTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PickerTextField/PickerTextField.modulemap";
+				PRODUCT_MODULE_NAME = PickerTextField;
+				PRODUCT_NAME = PickerTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		E6EA9C6421B4FA2715A08434870ECAC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D1B900F80CBA5ED614B2E14BBB159F05 /* Pods-ExamplePickerTextField.debug.xcconfig */;
@@ -869,43 +904,6 @@
 			};
 			name = Debug;
 		};
-		F26B5A19521276D33FE08419B78CB0FB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AE176A8E6F66C26894F8A229D3721E44 /* PickerTextField.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PickerTextField/PickerTextField-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PickerTextField/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/PickerTextField/PickerTextField.modulemap";
-				PRODUCT_MODULE_NAME = PickerTextField;
-				PRODUCT_NAME = PickerTextField;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -939,8 +937,8 @@
 		AC65F94A5E105A67C3FCEF16533009A3 /* Build configuration list for PBXNativeTarget "PickerTextField" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F26B5A19521276D33FE08419B78CB0FB /* Debug */,
-				076A4F0F67C5695677C03E40477820EB /* Release */,
+				161109853E8C772B4E7C0E705F6F883A /* Debug */,
+				CCD31B3FF8787911A22A4409538384F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
