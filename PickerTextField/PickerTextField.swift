@@ -51,6 +51,10 @@ public class PickerTextField: UITextField {
         previousSelectedRow = index + 1
     }
     
+    public func reload() {
+        pickerView.reloadAllComponents()
+    }
+    
     // MARK: - Actions
     
     @objc private func doneBarButtonItemPressed(sender: UIBarButtonItem) {
