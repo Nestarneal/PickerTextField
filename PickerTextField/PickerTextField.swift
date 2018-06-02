@@ -13,6 +13,11 @@ import UIKit
     func pickerTextField(_ pickerTextField: PickerTextField, titleForRow row: Int) -> String?
 }
 
+enum PickerTextFieldError: String, Error {
+    case emptyDataSourceError = "Data source is not set."
+    case inValidIndexError = "Index value index."
+}
+
 public class PickerTextField: UITextField {
     
     // MARK: - Properties
@@ -24,19 +29,47 @@ public class PickerTextField: UITextField {
     
     private var previousSelectedRow: Int = 0
     
+    private var defaultPlaceHolder = "--"
+    
+    // MARK: - Interfaces.
+    
+    public func selectedIndex() -> Int? {
+        return (previousSelectedRow == 0) ? nil : (previousSelectedRow - 1)
+    }
+    
+    public func setIndexSelect(_ index: Int) throws {
+        
+        if dataSource == nil {
+            throw PickerTextFieldError.emptyDataSourceError
+        }
+        
+        if (index < 0) || (index >= dataSource!.numberOfRows(in: self)) {
+            throw PickerTextFieldError.inValidIndexError
+        }
+        
+        text = dataSource!.pickerTextField(self, titleForRow: index)
+        previousSelectedRow = index + 1
+    }
+    
     // MARK: - Actions
     
     @objc private func doneBarButtonItemPressed(sender: UIBarButtonItem) {
+        
         resignFirstResponder()
         
         previousSelectedRow = pickerView.selectedRow(inComponent: 0)
+        
+        if previousSelectedRow == 0 {
+            text = defaultPlaceHolder
+            return
+        }
         
         guard let dataSource = dataSource else {
             text = nil
             return
         }
         
-        text = (dataSource.numberOfRows(in: self) > 0) ? dataSource.pickerTextField(self, titleForRow: previousSelectedRow) : nil
+        text = (dataSource.numberOfRows(in: self) > 0) ? dataSource.pickerTextField(self, titleForRow: previousSelectedRow - 1) : nil
     }
     
     @objc private func cancelBarButtonItemPressed(sender: UIBarButtonItem) {
@@ -62,6 +95,9 @@ public class PickerTextField: UITextField {
         
         // Set up text field delegate.
         delegate = self
+        
+        // Set default place holder text.
+        text = defaultPlaceHolder
     }
     
     public override init(frame: CGRect) {
@@ -85,7 +121,7 @@ extension PickerTextField: UIPickerViewDataSource {
     
     public func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
         guard let dataSource = dataSource else { return 0 }
-        return max(dataSource.numberOfRows(in: self), 0)
+        return max(dataSource.numberOfRows(in: self), 0) + 1
     }
 }
 
@@ -94,8 +130,11 @@ extension PickerTextField: UIPickerViewDataSource {
 extension PickerTextField: UIPickerViewDelegate {
     
     public func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        if row == 0 {
+            return defaultPlaceHolder
+        }
         guard let dataSource = dataSource else { return nil }
-        return (dataSource.numberOfRows(in: self) > 0) ? dataSource.pickerTextField(self, titleForRow: row) : nil
+        return (dataSource.numberOfRows(in: self) > 0) ? dataSource.pickerTextField(self, titleForRow: row - 1) : nil
     }
 }
 

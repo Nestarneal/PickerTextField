@@ -11,6 +11,25 @@ import PickerTextField
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var lowerPickerTextField: PickerTextField!
+    
+    @IBAction func setButtonPressed(_ sender: UIButton) {
+        
+        do {
+            try lowerPickerTextField.setIndexSelect(2)
+        } catch {
+            let alert = UIAlertController(title: "Fail", message: nil, preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "Done", style: .default, handler: nil))
+            present(alert, animated: true)
+        }
+    }
+    
+    @IBAction func getButtonPressed(_ sender: UIButton) {
+        if let index = lowerPickerTextField.selectedIndex() {
+            print("Index: \(index)")
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }

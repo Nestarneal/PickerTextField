@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -64,19 +64,19 @@
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5AF1B1EC12DEC88B0425CE9A11220787 /* Pods-ExamplePickerTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExamplePickerTextField.release.xcconfig"; sourceTree = "<group>"; };
 		647E95829C250CB777F73E25D6A369AD /* Pods-ExamplePickerTextFieldUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExamplePickerTextFieldUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		66CA7235BD04578FF698579A41429977 /* Pods_ExamplePickerTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ExamplePickerTextField.framework; path = "Pods-ExamplePickerTextField.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66CA7235BD04578FF698579A41429977 /* Pods_ExamplePickerTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExamplePickerTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		763A8E51918958FB3B1053464148C8F4 /* Pods-ExamplePickerTextFieldUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ExamplePickerTextFieldUITests-umbrella.h"; sourceTree = "<group>"; };
 		775888CE780E2247714C8EE3BCC663E5 /* Pods-ExamplePickerTextFieldTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExamplePickerTextFieldTests-resources.sh"; sourceTree = "<group>"; };
 		78555E83BBBD9C44A0E9C20CDAC931EC /* Pods-ExamplePickerTextFieldTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExamplePickerTextFieldTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7A476538F4BA7561842C572F5DF8CC02 /* PickerTextField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = PickerTextField.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7A476538F4BA7561842C572F5DF8CC02 /* PickerTextField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = PickerTextField.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7FA1E838E6630C6EC27C4836D91C082A /* Pods-ExamplePickerTextFieldUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExamplePickerTextFieldUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		8AD041AB39494EB084C7A1979FAA444C /* Pods-ExamplePickerTextField-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExamplePickerTextField-resources.sh"; sourceTree = "<group>"; };
-		8B468CFB4C8971095397B8F840417010 /* PickerTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PickerTextField.framework; path = PickerTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B468CFB4C8971095397B8F840417010 /* PickerTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PickerTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DEDE8710415CDE1D4AA146BC4E932CD /* PickerTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PickerTextField.swift; path = PickerTextField/PickerTextField.swift; sourceTree = "<group>"; };
 		8E6E86CE797A4FF6E57C19063327D8C1 /* PickerTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PickerTextField-umbrella.h"; sourceTree = "<group>"; };
-		90185B8FEDC9E381B80411D84BE86186 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		91DF740B238C28C608510AFA8AF491FF /* Pods_ExamplePickerTextFieldUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ExamplePickerTextFieldUITests.framework; path = "Pods-ExamplePickerTextFieldUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		90185B8FEDC9E381B80411D84BE86186 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		91DF740B238C28C608510AFA8AF491FF /* Pods_ExamplePickerTextFieldUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExamplePickerTextFieldUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		956F8BA382A90CA746D21D6F2E5F3AF6 /* Pods-ExamplePickerTextFieldTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ExamplePickerTextFieldTests-umbrella.h"; sourceTree = "<group>"; };
 		9A5456A13FCF5B9B206D1C2C30013331 /* Pods-ExamplePickerTextFieldUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ExamplePickerTextFieldUITests.modulemap"; sourceTree = "<group>"; };
 		A96E32FE936B42894211CBC25E760B5C /* Pods-ExamplePickerTextFieldTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExamplePickerTextFieldTests-dummy.m"; sourceTree = "<group>"; };
@@ -87,13 +87,13 @@
 		C5616A92072F03CF73A6169BCF9D5D87 /* Pods-ExamplePickerTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExamplePickerTextField-dummy.m"; sourceTree = "<group>"; };
 		C648891F5E97E3E5EBF4A1067E1BD86A /* Pods-ExamplePickerTextFieldUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExamplePickerTextFieldUITests-frameworks.sh"; sourceTree = "<group>"; };
 		CB4A53FBC8854E1F73F4E7A47F6B3329 /* Pods-ExamplePickerTextFieldUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExamplePickerTextFieldUITests-dummy.m"; sourceTree = "<group>"; };
-		CDB3B1CA9D8F29CC555533C2CF98F4AA /* Pods_ExamplePickerTextFieldTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ExamplePickerTextFieldTests.framework; path = "Pods-ExamplePickerTextFieldTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDB3B1CA9D8F29CC555533C2CF98F4AA /* Pods_ExamplePickerTextFieldTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExamplePickerTextFieldTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDBEA72EB749B41000245BC57C1D8F27 /* PickerTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PickerTextField-prefix.pch"; sourceTree = "<group>"; };
 		D1635A2EC361F7A152D15F2BF323A10D /* Pods-ExamplePickerTextField-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExamplePickerTextField-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D1B900F80CBA5ED614B2E14BBB159F05 /* Pods-ExamplePickerTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExamplePickerTextField.debug.xcconfig"; sourceTree = "<group>"; };
 		D65553F434E530144B99590C6A942634 /* Pods-ExamplePickerTextFieldTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExamplePickerTextFieldTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DDE63C7D67F3A35F80A7A9674F001F15 /* Pods-ExamplePickerTextField-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExamplePickerTextField-acknowledgements.plist"; sourceTree = "<group>"; };
-		E1395ED9DA50904F7C552D5662EE0FDE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E1395ED9DA50904F7C552D5662EE0FDE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FD51F48A396F06367F08A4F42107AC25 /* Pods-ExamplePickerTextFieldUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExamplePickerTextFieldUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -396,7 +396,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 0940;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -494,11 +494,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ExamplePickerTextFieldTests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ExamplePickerTextFieldTests/Pods-ExamplePickerTextFieldTests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -532,11 +528,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ExamplePickerTextFieldUITests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ExamplePickerTextFieldUITests/Pods-ExamplePickerTextFieldUITests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -570,11 +562,7 @@
 				INFOPLIST_FILE = "Target Support Files/PickerTextField/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/PickerTextField/PickerTextField.modulemap";
 				PRODUCT_MODULE_NAME = PickerTextField;
 				PRODUCT_NAME = PickerTextField;
@@ -607,11 +595,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ExamplePickerTextField/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ExamplePickerTextField/Pods-ExamplePickerTextField.modulemap";
 				OTHER_LDFLAGS = "";
@@ -647,11 +631,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ExamplePickerTextFieldUITests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ExamplePickerTextFieldUITests/Pods-ExamplePickerTextFieldUITests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -784,6 +764,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
@@ -806,11 +787,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ExamplePickerTextFieldTests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ExamplePickerTextFieldTests/Pods-ExamplePickerTextFieldTests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -844,11 +821,7 @@
 				INFOPLIST_FILE = "Target Support Files/PickerTextField/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/PickerTextField/PickerTextField.modulemap";
 				PRODUCT_MODULE_NAME = PickerTextField;
 				PRODUCT_NAME = PickerTextField;
@@ -882,11 +855,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ExamplePickerTextField/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ExamplePickerTextField/Pods-ExamplePickerTextField.modulemap";
 				OTHER_LDFLAGS = "";

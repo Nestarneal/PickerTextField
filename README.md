@@ -3,7 +3,7 @@ A simple wrapper for UITextField providing UIPickerView and UIToolbar for you!
 
 # Install
 1. pod init
-2. Add following statement in Podfile: pod 'PickerTextField'
+2. Add following statement in Podfile: pod 'PickerTextField', '~> 1.3'
 3. pod install
 
 # Usage
