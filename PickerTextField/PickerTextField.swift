@@ -55,6 +55,24 @@ public class PickerTextField: UITextField {
         pickerView.reloadAllComponents()
     }
     
+    public func deselect() {
+        previousSelectedRow = 0
+        text = defaultPlaceHolder
+    }
+    
+    public func refreshTextBasedOnSelectedIndex() throws {
+        
+        if previousSelectedRow == 0 {
+            text = defaultPlaceHolder
+        }
+        
+        guard let dataSource = dataSource else {
+            throw PickerTextFieldError.emptyDataSourceError
+        }
+        
+        text = dataSource.pickerTextField(self, titleForRow: previousSelectedRow - 1)
+    }
+    
     // MARK: - Actions
     
     @objc private func doneBarButtonItemPressed(sender: UIBarButtonItem) {
