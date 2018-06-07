@@ -58,6 +58,7 @@ public class PickerTextField: UITextField {
     public func deselect() {
         previousSelectedRow = 0
         text = defaultPlaceHolder
+        pickerView.selectRow(0, inComponent: 0, animated: true)
     }
     
     public func refreshTextBasedOnSelectedIndex() throws {
